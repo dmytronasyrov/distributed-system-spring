@@ -8,4 +8,4 @@ spring:
         git:
           uri: file://${user.home}/Projects/distributed-system-umbrella/config
           clone-on-start: true
-          search-paths: *, {application}, config/{application}, config/, config/*
+          search-paths: "*, dev, prod"
