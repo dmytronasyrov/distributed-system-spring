@@ -17,6 +17,7 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <modules>
+        <module>server-exchange</module>
         <module>server-config</module>
         <module>gateway</module>
         <module>discovery</module>
