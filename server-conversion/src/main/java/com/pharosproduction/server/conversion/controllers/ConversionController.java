@@ -31,7 +31,7 @@ public class ConversionController {
   private ExchangeProxy proxy;
 
   @GetMapping("/{from}/{to}/{quantity}")
-  public Conversion convertCurrency(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
+  public Conversion show(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
 //    final Map<String, String> uriVars = new HashMap<>();
 //    uriVars.put("from", from);
 //    uriVars.put("to", to);
