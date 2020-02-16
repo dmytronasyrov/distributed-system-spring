@@ -1,6 +1,6 @@
 spring:
   application:
-    name: server-exchange
+    name: server-conversion
 
   cloud:
     config:

@@ -1,4 +1,4 @@
-package com.pharosproduction.currenyexchangeservice;
+package com.pharosproduction.server.exchange;
 
 import brave.sampler.Sampler;
 import org.springframework.boot.SpringApplication;
@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class CurrenyExchangeServiceApplication {
+public class ExchangeApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(CurrenyExchangeServiceApplication.class, args);
+    SpringApplication.run(ExchangeApplication.class, args);
   }
 
   @Bean

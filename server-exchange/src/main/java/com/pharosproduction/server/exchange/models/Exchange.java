@@ -1,4 +1,4 @@
-package com.pharosproduction.currenyexchangeservice.models;
+package com.pharosproduction.server.exchange.models;
 
 import javax.persistence.*;
 import java.math.BigDecimal;

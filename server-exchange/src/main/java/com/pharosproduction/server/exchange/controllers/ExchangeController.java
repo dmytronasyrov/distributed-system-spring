@@ -1,7 +1,7 @@
-package com.pharosproduction.currenyexchangeservice.controllers;
+package com.pharosproduction.server.exchange.controllers;
 
-import com.pharosproduction.currenyexchangeservice.repos.ExchangeRepository;
-import com.pharosproduction.currenyexchangeservice.models.Exchange;
+import com.pharosproduction.server.exchange.repos.ExchangeRepository;
+import com.pharosproduction.server.exchange.models.Exchange;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/exchanges")
-public class CurrencyExchangeController {
+public class ExchangeController {
 
   private final Logger logger = LoggerFactory
     .getLogger(this.getClass());

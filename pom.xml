@@ -18,6 +18,7 @@
 
     <modules>
         <module>server-exchange</module>
+        <module>server-conversion</module>
         <module>server-config</module>
         <module>gateway</module>
         <module>discovery</module>

@@ -1,6 +1,6 @@
-package com.pharosproduction.currenyexchangeservice.repos;
+package com.pharosproduction.server.exchange.repos;
 
-import com.pharosproduction.currenyexchangeservice.models.Exchange;
+import com.pharosproduction.server.exchange.models.Exchange;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ExchangeRepository extends JpaRepository<Exchange, Long> {

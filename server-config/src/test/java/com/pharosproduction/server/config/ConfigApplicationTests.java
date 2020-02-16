@@ -1,10 +1,10 @@
-package com.pharosproduction.namingserver;
+package com.pharosproduction.server.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NamingServerApplicationTests {
+class ConfigApplicationTests {
 
   @Test
   void contextLoads() {

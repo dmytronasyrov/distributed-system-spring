@@ -1,10 +1,10 @@
-package com.pharosproduction.currenyexchangeservice;
+package com.pharosproduction.discovery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CurrenyExchangeServiceApplicationTests {
+class DiscoveryApplicationTests {
 
   @Test
   void contextLoads() {
