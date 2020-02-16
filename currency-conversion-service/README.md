@@ -1,2 +1,0 @@
-http://localhost:8100/currency-converter-feign/from/USD/to/INR/quantity/100
-http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/100
