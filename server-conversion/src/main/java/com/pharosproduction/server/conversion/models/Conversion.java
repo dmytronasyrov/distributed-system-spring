@@ -1,7 +1,10 @@
 package com.pharosproduction.server.conversion.models;
 
+import io.swagger.annotations.ApiModel;
+
 import java.math.BigDecimal;
 
+@ApiModel(description = "All details about the currency exchange")
 public class Conversion {
 
   private Long id;
